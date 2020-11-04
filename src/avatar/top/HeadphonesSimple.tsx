@@ -3,7 +3,7 @@ import * as React from 'react'
 export default class HeadphonesSimple extends React.Component {
   static optionValue = 'HeadphonesSimple'
 
-  // private filter1 = uniqueId('react-filter-')
+  // private filter1 = uniqueId('react-filter-') maybe this needs to be there?
   // private mask1 = uniqueId('react-mask-')
   // private mask2 = uniqueId('react-mask-')
   // private mask3 = uniqueId('react-mask-')

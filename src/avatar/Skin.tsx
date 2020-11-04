@@ -28,6 +28,7 @@ function makeColor(name: string, color: string) {
 }
 
 const Tanned = makeColor('Tanned', '#FD9841')
+const Lilac = makeColor('Lilac', '#e1c4ff')
 const Yellow = makeColor('Yellow', '#F8D25C')
 const Pale = makeColor('Pale', '#FFDBB4')
 const Light = makeColor('Light', '#EDB98A')
@@ -40,6 +41,7 @@ export default class Skin extends React.Component<Props> {
     return (
       <Selector option={SkinOption} defaultOption={Light}>
         <Tanned maskID={this.props.maskID} />
+        <Lilac maskID={this.props.maskID} />
         <Yellow maskID={this.props.maskID} />
         <Pale maskID={this.props.maskID} />
         <Light maskID={this.props.maskID} />

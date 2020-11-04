@@ -34,6 +34,7 @@ function makeColor(name, color) {
     return anyComponent;
 }
 var Tanned = makeColor('Tanned', '#FD9841');
+var Lilac = makeColor('Lilac', '#e1c4ff');
 var Yellow = makeColor('Yellow', '#F8D25C');
 var Pale = makeColor('Pale', '#FFDBB4');
 var Light = makeColor('Light', '#EDB98A');
@@ -48,6 +49,7 @@ var Skin = /** @class */ (function (_super) {
     Skin.prototype.render = function () {
         return (React.createElement(options_1.Selector, { option: options_1.SkinOption, defaultOption: Light },
             React.createElement(Tanned, { maskID: this.props.maskID }),
+            React.createElement(Lilac, { maskID: this.props.maskID }),
             React.createElement(Yellow, { maskID: this.props.maskID }),
             React.createElement(Pale, { maskID: this.props.maskID }),
             React.createElement(Light, { maskID: this.props.maskID }),
