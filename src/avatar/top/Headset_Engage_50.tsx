@@ -8,7 +8,9 @@ export default class Headset_Jabra_Engage_50 extends React.Component {
   render () {
     return (
       <g id='Top/Headset_Jabra_Engage_50' strokeWidth='1' fillRule='evenodd'>
-        { <path d="M19.6597 0C19.6597 0 -12.5508 126.889 5.48714 182.957C70.4568 225.302 85.4207 230.939 86.2473 231.583C87.0739 232.227 84.1378 238.067 83.4651 237.677C82.7923 237.287 46.3845 219.611 46.8792 214.532" transform="matrix(0.9612617 -0.27563736 0.27563736 0.9612617 11.303879 486.70474)" id="Line-4" fill="none" fill-rule="evenodd" stroke="#383737" stroke-width="15" stroke-linecap="square" />
+        { 
+          // <rect id={path1} x='0' y='0' width='264' height='280' (maybe we need this to scale the headphones right/>
+          <path d="M19.6597 0C19.6597 0 -12.5508 126.889 5.48714 182.957C70.4568 225.302 85.4207 230.939 86.2473 231.583C87.0739 232.227 84.1378 238.067 83.4651 237.677C82.7923 237.287 46.3845 219.611 46.8792 214.532" transform="matrix(0.9612617 -0.27563736 0.27563736 0.9612617 11.303879 486.70474)" id="Line-4" fill="none" fill-rule="evenodd" stroke="#383737" stroke-width="15" stroke-linecap="square" />
           <path d="M0.643387 0L0 59.6581" transform="matrix(-1 0 0 1 18.643387 298.00403)" id="Line-Copy" fill="#383737" fill-rule="evenodd" stroke="#383737" stroke-width="23" stroke-linecap="square" />
           <path d="M0.643387 0L0 59.6581" transform="matrix(-1 0 0 1 723.68677 298.04593)" id="Line-Copy-2" fill="#383737" fill-rule="evenodd" stroke="#383737" stroke-width="23" stroke-linecap="square" />
           <path d="M0 57.2039C0 57.2039 76.5335 -0.552181 266.5 0.00401803C456.467 0.560217 511 57.2039 511 57.2039" transform="translate(114.49985 5)" id="Line-6" fill="none" fill-rule="evenodd" stroke="#383737" stroke-width="10" stroke-linecap="square" />
