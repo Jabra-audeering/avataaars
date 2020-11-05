@@ -20,7 +20,6 @@ var Prescription01_1 = require("./Prescription01");
 var Prescription02_1 = require("./Prescription02");
 var Round_1 = require("./Round");
 var Sunglasses_1 = require("./Sunglasses");
-var Wayfarers_1 = require("./Wayfarers");
 var options_1 = require("../../../options");
 var Accessories = /** @class */ (function (_super) {
     __extends(Accessories, _super);
@@ -30,12 +29,9 @@ var Accessories = /** @class */ (function (_super) {
     Accessories.prototype.render = function () {
         return (React.createElement(options_1.Selector, { defaultOption: Blank_1.default, option: options_1.AccessoriesOption },
             React.createElement(Blank_1.default, null),
-            React.createElement(Kurt_1.default, null),
             React.createElement(Prescription01_1.default, null),
             React.createElement(Prescription02_1.default, null),
-            React.createElement(Round_1.default, null),
-            React.createElement(Sunglasses_1.default, null),
-            React.createElement(Wayfarers_1.default, null)));
+            React.createElement(Round_1.default, null)));
     };
     return Accessories;
 }(React.Component));
