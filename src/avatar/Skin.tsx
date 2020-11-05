@@ -28,7 +28,7 @@ function makeColor(name: string, color: string) {
 }
 
 const Tanned = makeColor('Tanned', '#FD9841')
-const Lilac = makeColor('Lilac', '#e1c4ff')
+const Lilac = makeColor('Lilac', '#e1c4ff') //added lilac
 const Yellow = makeColor('Yellow', '#F8D25C')
 const Pale = makeColor('Pale', '#FFDBB4')
 const Light = makeColor('Light', '#EDB98A')
